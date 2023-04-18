@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "real-engine",
-    "version": "0.0.0"
+    "version": "0.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -41,8 +41,9 @@
         "fullscreen": false,
         "resizable": true,
         "title": "Real Engine",
-        "width": 800,
-        "height": 600
+        "width": 500,
+        "height": 700,
+        "decorations": false
       }
     ]
   }
