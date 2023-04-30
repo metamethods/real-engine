@@ -1,0 +1,60 @@
+/* Topbar */
+.topbar {
+  width: 100%;
+  height: 30px;
+
+  display: flex;
+
+  flex-direction: row;
+  align-items: baseline;
+
+  user-select: none;
+}
+
+.topbar > * + * {
+  margin-left: 10px;
+}
+
+.topbar > .title {
+  font-size: 100%;
+}
+
+.topbar > .title > sub {
+  color: #929292;
+
+  font-size: 80%;
+  font-weight: normal;
+}
+
+/* Applications */
+.applications {
+  width: 100%;
+  height: 30px;
+
+  border: solid 1px #1F1F1F;
+  border-radius: 4px;
+}
+
+/* Memory */
+.memory {
+  width: 100%;
+  height: calc(100vh - (72px * 2));
+
+  background-color: #171717;
+
+  border-radius: 4px;
+}
+
+/* Positional Classes */
+.right {
+  position: absolute;
+
+  display: flex;
+
+  flex-direction: row-reverse;
+  align-items: center;
+
+  right: 0;
+
+  height: 100%;
+}
