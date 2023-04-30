@@ -12,10 +12,15 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false,
-      "shell": {
-        "all": false,
-        "open": true
+      "window": {
+        "close": true,
+        "hide": true,
+        "show": true,
+        "maximize": true,
+        "minimize": true,
+        "unmaximize": true,
+        "unminimize": true,
+        "startDragging": true
       }
     },
     "bundle": {
@@ -42,7 +47,9 @@
         "resizable": true,
         "title": "Real Engine",
         "width": 500,
-        "height": 700,
+        "height": 550,
+        "minHeight": 250,
+        "minWidth": 350,
         "decorations": false
       }
     ]
